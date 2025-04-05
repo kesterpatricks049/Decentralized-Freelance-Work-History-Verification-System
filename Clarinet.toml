@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.freelancer-profile]
+path = 'contracts/freelancer-profile.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.skill-certification]
 path = 'contracts/skill-certification.clar'
 clarity_version = 2
